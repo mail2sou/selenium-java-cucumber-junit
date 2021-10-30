@@ -1,7 +1,7 @@
 Feature: Add and verify a contract
 
   @smoke
-  Scenario Outline: Add a contract
+  Scenario Outline: Add a contract and verify the added contract after adding insurance
     Given An user navigates to the home page
     When The user clicks on "<app>" and starts
     Then The user is redirected to the questionnaire page
